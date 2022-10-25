@@ -10,6 +10,5 @@ app.use(cors());
 app.use(express.json());
 
 // routes
-app.get('/usuarios', (req, res) => res.send('Ruta de usuarios'));
 
 module.exports = app;
